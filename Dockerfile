@@ -26,6 +26,7 @@ RUN git clone https://sc.tpnfc.us/askforitpro/trivia.git &&\
 
 FROM quay.io/spivegin/tlmbasedebian
 RUN mkdir /opt/bin
+WORKDIR /opt/app/trivia
 COPY --from=builder /opt/bin/trivia /opt/bin/trivia
 RUN chmod +x /opt/bin/trivia && ln -s /opt/bin/trivia /bin/trivia
 CMD ["trivia", "qa"]
