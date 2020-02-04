@@ -1,3 +1,3 @@
 git add -A
-git commit -m "set working dir"
+git commit -m "added env"
 git push

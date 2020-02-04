@@ -28,6 +28,13 @@ FROM quay.io/spivegin/tlmbasedebian
 RUN mkdir /opt/bin
 WORKDIR /opt/app/trivia
 COPY --from=builder /opt/bin/trivia /opt/bin/trivia
+ENV PLIVO_AUTH_TOKEN="" \
+    PLIVO_AUTH_ID="" \
+    TELEGRAM_APITOKEN="" \
+    MINIO_ACCESS_KEY = "" \
+    MINIO_SECRET_KEY = "" \
+    EMAIL_USER = "" \
+    EMAIL_PASSWORD = ""
 RUN chmod +x /opt/bin/trivia && ln -s /opt/bin/trivia /bin/trivia
 CMD ["trivia", "qa"]
 
