@@ -3,3 +3,4 @@
 3) d648793..5c40004 checkin -- build 
 	depends on new schema
 4) 5c40004..cabb170 checkin -- build v2
+5) cabb170..4aff3b4 added version in display
