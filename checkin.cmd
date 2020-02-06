@@ -1,3 +1,3 @@
 git add -A
-git commit -m "9f5be23..c940f15 -- removed test data"
+git commit -m "c940f15..3b84a78  --  fixed minio env"
 git push
