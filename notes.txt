@@ -7,3 +7,4 @@
 6) 4aff3b4..9f5be23 added prize email and api completed Task #6
 7) 9f5be23..c940f15 removed test data
 8) c940f15..3b84a78  fixed minio env
+9) 3b84a78..c2b3eba  add validation for email to be sent out task#19
