@@ -1,3 +1,3 @@
 git add -A
-git commit -m "3b84a78..c2b3eba  add validation for email to be sent out task#19"
+git commit -m "Create a short url end point to route traffic to other sites e9c3fbb..fe18789"
 git push
