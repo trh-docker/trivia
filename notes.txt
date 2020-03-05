@@ -15,3 +15,4 @@
 14) a4b9040..e2345b2
 15) b839631..45897a8
 16) 45897a8..633bc65 
+17) 633bc65..bd6405b add log to telegram when someone texts task#27
