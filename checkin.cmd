@@ -1,3 +1,3 @@
 git add -A
-git commit -m "add log to telegram when someone texts task#27 633bc65..bd6405b"
+git commit -m "Add tracking for quizzes used to telegram @QuizedPlayed task#29 bd6405b..1261c3b"
 git push
