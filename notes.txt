@@ -17,3 +17,4 @@
 16) 45897a8..633bc65 
 17) 633bc65..bd6405b add log to telegram when someone texts task#27
 18) bd6405b..1261c3b Add tracking for quizzes used to telegram @QuizedPlayed task#29
+19) 1261c3b..f6dd9ca 
