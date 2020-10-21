@@ -1,6 +1,6 @@
 FROM quay.io/spivegin/gitonly:latest AS git
 
-FROM quay.io/spivegin/golang:v1.13 AS builder
+FROM quay.io/spivegin/golang:v1.15.2 AS builder
 WORKDIR /opt/src/src/sc.tpnfc.us/askforitpro/
 
 RUN ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa && git config --global user.name "quadtone" && git config --global user.email "quadtone@txtsme.com"
