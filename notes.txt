@@ -22,3 +22,4 @@
 21) 28eaf81..92b78d4 fixed telegram not init when env set
 22) 92b78d4..1d4ecb6 fixed insert keyword
 23) 1d4ecb6..ae4439c allowed for longer links
+24) c42d0a8..99c10e0 added page tracking
